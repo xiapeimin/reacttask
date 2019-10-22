@@ -33,7 +33,7 @@ export default class TodoList extends Component {
       return (
         <Fragment>
           {        
-            this.getLocalStorage() //初始化 读取本地存储
+            this.getLocalStorage() 
           }
           <div>
             <Todoinput parent={this}/>
